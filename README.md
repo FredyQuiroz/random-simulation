@@ -6,30 +6,42 @@
 
 Ejercicio de consola que enseña cómo una fórmula genera números que parecen aleatorios. El programa conserva un estado inicial que se usa para generar toda la secuencia.
 
-### Esta revisión
+### Qué puedes hacer
 
-**2012-05-09 · Generar números pseudoaleatorios desde una semilla.** Recupera la aplicación de consola que mantiene el estado del generador y produce muestras enteras y decimales. Las dos salidas permiten estudiar cómo la misma secuencia se representa de formas distintas.
+- Produce una secuencia de diez enteros y diez valores decimales.
+- Usa una semilla y actualiza el estado con cada número generado.
+- Permite estudiar la diferencia entre el cálculo de enteros y decimales en `Random/Program.cs`.
 
-### Cómo explorar el código
+### Ejemplo
+
+Ejecuta el programa y distingue los enteros de los decimales en la salida. Revisa dónde se elige la semilla en el código de ejemplo.
+
+### Cómo empezar
 
 El proyecto conserva su formato de Visual Studio y la versión original de .NET Framework. Abre la solución con una instalación compatible y revisa sus referencias antes de compilar.
 
-- [Random.sln](Random.sln)
-- [Random/Program.cs](Random/Program.cs)
-- [Random/Random.csproj](Random/Random.csproj)
+Puntos de entrada en el código. [`Random.sln`](Random.sln), [`Random/Program.cs`](Random/Program.cs), [`Random/Random.csproj`](Random/Random.csproj).
+
+Las fechas del historial se apoyan en Git o en la evidencia disponible de los respaldos. Las fechas reconstruidas a partir de archivos sin zona horaria usan las 12:00 UTC como referencia.
 
 ## English
 
 A console exercise that shows how a formula produces numbers that appear random. The program retains an initial state used to generate the sequence.
 
-### This revision
+### What you can do
 
-**2012-05-09 · Generate pseudorandom values from a seed.** Recover the console application that keeps generator state and produces integer and fractional samples. The two outputs show how one sequence can be represented in different forms.
+- Produces ten integers and ten fractional values.
+- Uses a seed and updates its state after each generated number.
+- Lets you compare integer and fractional generation in `Random/Program.cs`.
 
-### How to explore the source
+### Example
+
+Run the program and distinguish integers from fractional values in the output. Locate where the sample chooses its seed.
+
+### Getting started
 
 The project retains its Visual Studio format and original .NET Framework version. Open the solution in a compatible installation and review its references before building.
 
-- [Random.sln](Random.sln)
-- [Random/Program.cs](Random/Program.cs)
-- [Random/Random.csproj](Random/Random.csproj)
+Entry points in the source. [`Random.sln`](Random.sln), [`Random/Program.cs`](Random/Program.cs), [`Random/Random.csproj`](Random/Random.csproj).
+
+History dates come from Git or available backup evidence. Reconstructed dates from files with no time zone use 12:00 UTC as a reference.
